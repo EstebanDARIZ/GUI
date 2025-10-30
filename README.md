@@ -31,6 +31,7 @@ These values are automatically converted to milliseconds for synchronization wit
 Set the video and detection file paths in config.py:
 
 VIDEO_PATH = "/absolute/path/to/your/video.mp4"
+
 FILE_PATH = "/absolute/path/to/detections.txt"
 
 Make sure both files exist and are accessible.
@@ -40,6 +41,7 @@ Make sure both files exist and are accessible.
 ## Running the Application
 
 Run the graphical interface with:
+
 python main_gui.py
 
 ---
